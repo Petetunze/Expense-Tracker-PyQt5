@@ -2,6 +2,23 @@
 
 ### A semester project for CYBI3331.01/90R: Software Engineering and Project Management
 
-This repo consists of the source code for the Expense Tracker project.
-It also includes a venv for required packages for this application to run of running from a terminal with Python.
-It also includes an executable to run as is without anything else.
+This repo only consists of the source code for the Expense Tracker project.
+
+If you would like to download and run locally, this project requires `PyQt5` and `openpyx`.
+
+`PyQt5` - https://pypi.org/project/PyQt5/
+
+`openpyxl` - https://pypi.org/project/openpyxl/
+
+
+If you don't want to do that, I have a link to the ZIP file that consists of the virtual enviorment with the required modules. All you need is a Python iterpreter and OneDrive link to ZIP file. It was too large to upload here. You need an UTRGV account to access this file. 
+
+https://utrgv-my.sharepoint.com/:u:/g/personal/sebastian_herrera02_utrgv_edu/EXqJQwm-UQhGs4O3q9s3v50BO2VU3Nwr37qaRD9k8LHVbQ?e=fxyrqw
+
+```
+> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+> .\myenv\Scripts\Activate
+
+> python .\main.py
+```
